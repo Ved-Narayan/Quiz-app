@@ -32,17 +32,24 @@ npm start
 Open http://localhost:3000 to view the application in your browser.
 
 **Assumptions**
+
 Users will provide a valid email address to begin the quiz.
 The OTDB API will return 15 multiple-choice questions in each fetch request.
 The time limit for the quiz is strictly 30 minutes.
 
 **Challenges and Solutions**
+
 Challenge: Decoding HTML Entities
+
 Problem: Questions from the API contained special characters (", &).
+
 Solution: Implemented a function (decodeHtmlEntities) to parse and render them correctly.
 
+
 Challenge: Handling Edge Cases
+
 Problem: Users might skip questions or submit without answering all.
+
 Solution: Marked all visited questions and highlighted skipped ones in the navigation.
 
 
