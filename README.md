@@ -5,6 +5,7 @@
 This quiz application is a dynamic platform for testing knowledge with multiple-choice questions. Users enter their email to start, complete the quiz within the time limit, and view their performance summary at the end.
 
 **Approach**
+
 Fetching Questions: Questions are retrieved from the Open Trivia Database (OTDB) API.
 Dynamic Timer: Includes a countdown timer for managing the 30-minute quiz session.
 Responsive Navigation: Users can navigate between questions, and visited questions are tracked.
